@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const MyIcon = ({type, url, tooltip, myColor}) => {
+export const MyIcon = ({type, url, myColor}) => {
   console.log(type)
   if (myColor == false) {
     return (
@@ -9,7 +9,7 @@ export const MyIcon = ({type, url, tooltip, myColor}) => {
   }
   else {
     return(
-      <a href={url}><span className={` mr-4 ${type}`} style={{color: '#A7B0AA', fontSize: 30}} ></span></a>
+      <a href={url}><span className={` mr-4 ${type}`} style={{color: '#A7B0AA', fontSize: 30}}></span></a>
   
     )
   }
