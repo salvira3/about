@@ -1,5 +1,6 @@
 import React from 'react';
 import { GeneralContainer } from '../container/GeneralContainer';
+import { Footer } from '../container/Footer';
 import { MyIcon } from '../components/MyIcon';
 
 export class Home extends React.Component {
@@ -20,8 +21,8 @@ export class Home extends React.Component {
               <h5 className="detail text-justify pt-3">An undergraduate <span className="font-bold">Information System student at University of Indonesia</span> who always eager to learn new things
                  and seek out new challenges. Passionate in <span className="font-bold">frontend development and UI UX</span>. 
                  I enjoy developing ideas on how to improve websites. I am also happy to collaborate with other people.</h5>
-              <h5 className="pt-3 font-italic"> Reach me through <span className="font-black ml-2" style={{color: '#E1B1B0'}}><u>salvirasyifa@gmail.com</u></span></h5>
-              <div className="pt-4">
+              <h5 className="pt-5 font-italic"> Reach me through <span className="font-black ml-2" style={{color: '#E1B1B0'}}><u>salvirasyifa@gmail.com</u></span></h5>
+              <div className="pt-5">
                 <MyIcon type="fab fa-linkedin" url="https://www.linkedin.com/in/cut-syifa-salvira/"/>
                 <MyIcon type="fab fa-github" url="http://github.com/salvira3"/>
                 <MyIcon type="fab fa-gitlab" url="http://gitlab.com/salvira3" />
@@ -34,6 +35,7 @@ export class Home extends React.Component {
           </div>
           
         </div>
+        <Footer />
       </React.Fragment>
     )
   }
