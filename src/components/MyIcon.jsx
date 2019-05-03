@@ -1,8 +1,17 @@
 import React from 'react';
 
-export const MyIcon = ({type, url}) => {
+export const MyIcon = ({type, url, tooltip, myColor}) => {
   console.log(type)
-  return (
-    <a href={url}><span className={` mr-4 ${type} my-icon`}></span></a>
-  )
+  if (myColor == false) {
+    return (
+      <a href={url}><span className={` mr-4 ${type} my-icon`}></span></a>
+    )
+  }
+  else {
+    return(
+      <a href={url}><span className={` mr-4 ${type}`} style={{color: '#A7B0AA', fontSize: 30}} ></span></a>
+  
+    )
+  }
+  
 }
