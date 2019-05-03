@@ -11,10 +11,35 @@ body {
 }
 .btn-resume {
   background: #A7B0AA;
+  border: 3px solid #A7B0AA;
   color: white;
   border-radius: 20px;
   letter-spacing: 1px;
 }
+.btn-resume:hover {
+  color: #A7B0AA;
+  background: transparent;
+}
 .font-bold {
-  font-weight: 500;
+  font-weight: 600;
+}
+.font-black {
+  font-weight: 900;
+}
+.my-title {
+  color: #A7B0AA;
+}
+.my-photo {
+  height: 127px;
+}
+h1 {
+  font-size: 48pt;
+}
+.detail {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.my-icon {
+  color: #E1B1B0;
+  font-size: 30pt;
 }
