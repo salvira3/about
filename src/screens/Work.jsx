@@ -14,8 +14,8 @@ export class Work extends React.Component {
         <div className="container-fluid bg-work content-wrap">
           <div className="row">
             <div className="col-md-6 offset-md-3 col-sm-12 pt-5 vertical-center">
-              <h1 className="font-black font-italic my-title py-5 ">Hello, I’m <span style={{color:'#8E8E95'}}>Cut Syifa</span>, <br/>
-              currently learning to be a front end developer</h1>
+              <h1 className="font-black font-italic my-title py-5 ">Hi peeps, I’m <span style={{color:'#8E8E95'}}>Cut Syifa</span>! <br/>
+              Here's some of my web development projects</h1>
             </div>
           </div>
         </div>

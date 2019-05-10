@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const MyIcon = ({type, url, myColor}) => {
+export const MyIcon = ({type, url, myColor, tooltip}) => {
   console.log(type)
   if (myColor == false) {
     return (
