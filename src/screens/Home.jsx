@@ -30,7 +30,7 @@ export class Home extends React.Component {
                 <MyIcon type="fab fa-instagram" url="http://instagram.com/salvira3/" myColor={false}/>
                 <MyIcon type="fab fa-twitter-square" url="http://twitter.com/salvira3" myColor={false}/>
                 <MyIcon type="fab fa-spotify" url="https://open.spotify.com/user/salvira3?si=Jb9wo_XbSB-DYNnvnYR9jA" myColor={false}/>
-                <MyIcon type="fab fa-behance-square" url="https:/behance.net/salvira3" myColor={false}/>
+                <MyIcon type="fab fa-behance-square" url="http://behance.net/salvira3" myColor={false}/>
               </div>
               <div className="py-5">
                 <h5 className="font-italic mr-3  pb-2">Expertise</h5>
