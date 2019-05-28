@@ -22,6 +22,7 @@ export class Home extends React.Component {
               <h5 className="detail text-justify pt-3">An undergraduate <span className="font-bold">Information System student at University of Indonesia</span> who always eager to learn new things
                  and seek out new challenges. Passionate in <span className="font-bold">frontend development and UI UX</span>. 
                  I enjoy developing ideas on how to improve websites. I am also happy to collaborate with other people.</h5>
+              <h5 className="pt-4"> Please find my web development works on Work tab, or UI/UX portfolio on <a href="http://bit.ly/salviradesign"><span className="font-black ml-2" style={{color: '#E1B1B0'}}><u>bit.ly/salviradesign</u></span></a></h5>
               <h5 className="pt-4 font-italic"> Reach me through <a href="mailto:salvirasyifa@gmail.com"><span className="font-black ml-2" style={{color: '#E1B1B0'}}><u>salvirasyifa@gmail.com</u></span></a></h5>
               <div className="pt-5">
                 <MyIcon type="fab fa-linkedin" url="https://www.linkedin.com/in/cut-syifa-salvira/" myColor={false}/>

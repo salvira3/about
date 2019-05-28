@@ -20,6 +20,17 @@ body {
   color: #A7B0AA;
   background: transparent;
 }
+.btn-preview {
+  background: #E1B1B0;
+  border: 2px solid #E1B1B0;
+  color: white;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+.btn-preview:hover {
+  color: #E1B1B0;
+  background: transparent;
+}
 .font-bold {
   font-weight: 600;
 }
