@@ -1,4 +1,4 @@
-Hello, my name is Cut Syifa Salvira and this app is my personal page.
+Hello, my name is Cut Syifa Salvira and this app is my personal page. I developed this app using ReactJS.
 
 To run this application, you need to run command below:
 
